@@ -4,3 +4,7 @@ services:
     build: nginx
     ports:
       - "8080:80"
+  webserver:
+    build: webserver
+    ports:
+      - "9080:80"
